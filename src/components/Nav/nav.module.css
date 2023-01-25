@@ -1,0 +1,68 @@
+.div{
+    width: 100%;
+}
+
+.nav{
+    display: block;
+}
+
+.ul{
+    list-style-type: none;
+    padding-left: 87px;
+    padding-right: 25px;
+}
+
+.li{
+    display: inline;
+    margin-left: 6px;
+    margin-right: 6px;
+    
+}
+
+.img{
+    margin-left: 25px;
+    position: absolute;
+    top: 12.5px;
+    left: 0;
+}
+
+.try{
+    composes: li;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: auto;
+}
+
+.log{
+    composes: li;
+    margin-left: 6.25px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.separate{
+    border-top: 2px solid #eee;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.divDropdown{
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.ulDropdown{
+    margin-left: -12.5px;
+    margin-right: -12.5px;
+}
+
+.liDropdown{
+    display: inline-block;
+    width: 20%;
+}
