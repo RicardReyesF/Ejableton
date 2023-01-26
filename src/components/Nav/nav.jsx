@@ -112,6 +112,19 @@ export default function Nav() {
                             </div>
                         </div>
                         <div className={style.separate}></div>
+                        <div>
+                        <ul className={style.ul}>
+                            <li className={style.li}>
+                                <NavLink  to="/" className={style.link} style={({isActive}) => isActive ? {color: "Red"} : {color: "black"}}>About</NavLink>
+                            </li>
+                            <li className={style.li}>
+                                <NavLink to="/jobs" className={style.link} style={({isActive}) => isActive ? {color: "Red"} : {color: "black"}}>Jobs</NavLink>
+                            </li>
+                            <li className={style.li}>
+                                <NavLink  to="/apprenticeships"className={style.link} style={({isActive}) => isActive ? {color: "Red"} : {color: "black"}}>Apprenticeships</NavLink>
+                            </li>
+                        </ul>
+                        </div>
 </div>
     );
 }

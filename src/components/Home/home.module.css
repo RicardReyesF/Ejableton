@@ -1,0 +1,46 @@
+.img{
+    
+    margin-left: 83px;
+    margin-right: 83px;
+    margin-top: 15px;
+    background-position: 50% 50%;
+}
+
+.divText{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+.div{
+    position: relative;
+    padding-top: 83px;
+    padding-bottom: 83px;
+    
+}
+
+.divImg{
+    position: absolute;
+    background-color: #FBFFA7;
+    width: 885px;
+    height: 885px;
+    left: 416px;
+}
+
+.bateria{
+    
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 83px;
+}
+
+
+
+.divUkelele{
+    position: relative;
+    margin-right: 83px;
+    left: 300px;
+    top: 250px
+}
